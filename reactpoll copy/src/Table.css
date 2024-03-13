@@ -1,0 +1,55 @@
+#main-table {
+  max-height: 500px;
+  font-size: large;
+}
+#head-content {
+  background-color: grey;
+  color: white;
+}
+
+#paper {
+  width: 650px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  #main-table {
+    font-size: 100px;
+    max-height: 500px;
+    margin-top: 40px;
+    width: 300px;
+    /* font-size: large; */
+  }
+  #table-row {
+    font-size: 100px;
+
+    /* background-color: aquamarine; */
+  }
+  #MuiTableCell-root {
+    font-size: 20px; /* Adjust the font size to your preference */
+  }
+
+  #table-col {
+    font-size: 20px;
+  }
+
+  #table-content1 {
+    font-size: 20px;
+  }
+
+  #table-content2 {
+    font-size: 20px;
+  }
+  #table-content3 {
+    font-size: 20px;
+  }
+  #head-content {
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+  }
+
+  #paper {
+    width: 300px;
+  }
+}

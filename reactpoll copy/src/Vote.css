@@ -1,0 +1,49 @@
+input.option-vote {
+  font-size: 50px;
+  /* color: aqua; */
+}
+
+#option-div {
+  color: black;
+}
+#question {
+  margin-left: 15px;
+}
+
+#vote-button {
+  /* padding: 8px 16px; */
+  /* background-color: grey; */
+  /* color: white; */
+  /* border: none; */
+  /* border-radius: 4px; */
+  cursor: pointer;
+  margin-top: 16px;
+  margin-left: 15px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.option-vote {
+  margin-right: 8px;
+  /* color: aqua; */
+}
+
+#option-div label {
+  /* margin-bottom: 0; Remove default margin */
+  /* color: aqua; */
+}
+
+@media only screen and (max-width: 320px) {
+  #option-div {
+    font-size: 30px;
+  }
+  #vote-button {
+    font-size: 20px;
+    margin-left: 20px;
+    /* color: white; */
+  }
+}

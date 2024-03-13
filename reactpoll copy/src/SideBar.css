@@ -1,0 +1,99 @@
+.main-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  /* justify-content: center; */
+}
+
+#create-poll-button {
+  width: 220px;
+  /* height: 30px; */
+  margin-top: 10px;
+  /* background-color: #41acda; */
+  /* color: white; */
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#categories {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  background-color: #e5e0da;
+  width: 200px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#filter-by-tags-button {
+  margin-top: 10px;
+  /* background-color: #f4f0ec; */
+  /* color: black; */
+  padding: 8px;
+  /* border: 1px solid #333; */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-div {
+    /* flex-direction: row; */
+    /* background-color: yellow; */
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .main-div {
+    flex-direction: row;
+    display: block;
+    /* background-color: orange; */
+    width: 100%;
+    font-size: 30px;
+    margin-left: 10px;
+
+    /* font-size: 30px; */
+    /* align-items: center; */
+    /* margin-left: 50px; */
+  }
+
+  #categories {
+    padding: 60px 40px;
+    font-size: 30px;
+  }
+  input[type="checkbox"] {
+    margin: 7px 10 10;
+    margin-right: 12px;
+    line-height: normal;
+    width: 20px; /* Default size */
+    height: 23px; /* Default size */
+  }
+
+  #categories > div {
+    margin-bottom: 10px; /* Add margin between elements */
+  }
+  #first-div {
+    font-size: 20px;
+  }
+  #create-poll-button {
+    /* background-color: #41acda; */
+    font-size: 30px;
+    height: 45px;
+    /* color: white; */
+    /* margin-top: 10px; */
+    padding: 20px;
+    width: 280px;
+
+    align-items: center;
+    /* justify-content: center; */
+  }
+
+  #filter-by-tags-button {
+    font-size: 30px;
+    margin-top: 35px;
+  }
+}
